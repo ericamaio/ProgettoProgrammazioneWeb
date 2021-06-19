@@ -1,0 +1,26 @@
+<php
+class Categoria
+{
+    private string nome_categ;
+
+    public function __construct(string $_nome_categ)
+ {
+   $this->nome_categ = $_nome_categ;
+ }
+
+
+ public function getNomeCateg()
+  {
+    return $this->nome_categ;
+  }
+  public function setNomeCateg(string $_nome_categ)
+  {
+    $this->nome_categ =$_nome_categ;
+  }
+
+  public function visualizza_doc () {
+
+
+  }
+}
+?>
