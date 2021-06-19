@@ -1,6 +1,6 @@
 <php
 
-class Risposta {
+class risposta {
 
     private string $username;
     private string $testo;
