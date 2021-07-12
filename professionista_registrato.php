@@ -1,5 +1,10 @@
 <?php
 
+require once "Categoria.php";
+require once "Documento.php";
+require once "Domanda.php";
+require once "risposta.php";
+
 class Prof_Reg {
 
     //ATTRIBUTI//
