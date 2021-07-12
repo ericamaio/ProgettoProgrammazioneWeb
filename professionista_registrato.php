@@ -22,23 +22,23 @@ class Prof_Reg {
     }
 
     //METODI CLASSICI & BANALI//
-    public function setName(string $nome) {$name = $nome;}
-    public function getName() {return $name;}
+    public function setName(string $nome) {$this->name = $nome;}
+    public function getName() : string {return $this->name;}
 
-    public function setSurname(string $sname) {$surname = $sname;}
-    public function getSurname() {return $surname;}
+    public function setSurname(string $sname) {$this->surname = $sname;}
+    public function getSurname() :string {return $surname;}
 
-    public function setBirth(date $bdate) {$birthdate = $bdate;}
-    public function getBirth() {return $birthdate;}
+    public function setBirth(date $bdate) {$this->birthdate = $bdate;}
+    public function getBirth() : date {return $birthdate;}
 
-    public function setCodProf(string $codprof) {$cod_prof = $codprof;}
-    public function getCodProf() {return $cod_prof;}
+    public function setCodProf(string $codprof) {$this->cod_prof = $codprof;}
+    public function getCodProf() : string {return $cod_prof;}
 
-    public function setPasswd(password $passwd) {$pasword = $passwd;}
-    public function getPasswd() {return $password;}
+    public function setPasswd(password $passwd) {$this->pasword = $passwd;}
+    public function getPasswd() : password {return $password;}
 
-    public function setEmail(string $mail) {$email = $mail;}
-    public function getEmail() {return $email;}
+    public function setEmail(string $mail) {$this->email = $mail;}
+    public function getEmail() : string {return $email;}
 
 
 
