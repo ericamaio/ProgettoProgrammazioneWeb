@@ -1,11 +1,11 @@
 <?php
 
-require once "Categoria.php";
-require once "Documento.php";
-require once "Domanda.php";
-require once "risposta.php";
+require once "ecategoria.php";
+require once "edocumento.php";
+require once "edomanda.php";
+require once "erisposta.php";
 
-class Prof_Reg {
+class eprofreg {
 
     //ATTRIBUTI//
     private string $name;
